@@ -31,6 +31,17 @@ class ViewController: UIViewController {
                     }
                 }
     }
+    @IBAction func callAmiiboAPI(_ sender: Any) {
+        Task {
+              do{
+                await print( try AmiiboAPI_Helper.fetch())
+                    } catch AmiiboAPI_Errors.CANNOT_CONVERT_STRING_TO_URL {
+                        print("Please insert connect url")
+                    } catch {
+                        print(error)
+                    }
+                }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

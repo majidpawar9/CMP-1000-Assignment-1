@@ -15,6 +15,7 @@
 		9089729C2AB276C10054F2B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9089729A2AB276C10054F2B8 /* LaunchScreen.storyboard */; };
 		908972A42AB2797F0054F2B8 /* DotaAPI_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908972A32AB2797F0054F2B8 /* DotaAPI_Helper.swift */; };
 		908972A62AB29F760054F2B8 /* DigimonAPI_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908972A52AB29F760054F2B8 /* DigimonAPI_Helper.swift */; };
+		908972A82AB2A4940054F2B8 /* AmiiboAPI_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908972A72AB2A4940054F2B8 /* AmiiboAPI_Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9089729D2AB276C10054F2B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		908972A32AB2797F0054F2B8 /* DotaAPI_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotaAPI_Helper.swift; sourceTree = "<group>"; };
 		908972A52AB29F760054F2B8 /* DigimonAPI_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigimonAPI_Helper.swift; sourceTree = "<group>"; };
+		908972A72AB2A4940054F2B8 /* AmiiboAPI_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboAPI_Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				908972932AB276BF0054F2B8 /* ViewController.swift */,
 				908972A32AB2797F0054F2B8 /* DotaAPI_Helper.swift */,
 				908972A52AB29F760054F2B8 /* DigimonAPI_Helper.swift */,
+				908972A72AB2A4940054F2B8 /* AmiiboAPI_Helper.swift */,
 				908972952AB276BF0054F2B8 /* Main.storyboard */,
 				908972982AB276C10054F2B8 /* Assets.xcassets */,
 				9089729A2AB276C10054F2B8 /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 				908972A62AB29F760054F2B8 /* DigimonAPI_Helper.swift in Sources */,
 				908972A42AB2797F0054F2B8 /* DotaAPI_Helper.swift in Sources */,
 				908972942AB276BF0054F2B8 /* ViewController.swift in Sources */,
+				908972A82AB2A4940054F2B8 /* AmiiboAPI_Helper.swift in Sources */,
 				908972902AB276BF0054F2B8 /* AppDelegate.swift in Sources */,
 				908972922AB276BF0054F2B8 /* SceneDelegate.swift in Sources */,
 			);
