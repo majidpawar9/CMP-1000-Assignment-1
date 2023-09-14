@@ -14,6 +14,7 @@
 		908972992AB276C10054F2B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 908972982AB276C10054F2B8 /* Assets.xcassets */; };
 		9089729C2AB276C10054F2B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9089729A2AB276C10054F2B8 /* LaunchScreen.storyboard */; };
 		908972A42AB2797F0054F2B8 /* DotaAPI_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908972A32AB2797F0054F2B8 /* DotaAPI_Helper.swift */; };
+		908972A62AB29F760054F2B8 /* DigimonAPI_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908972A52AB29F760054F2B8 /* DigimonAPI_Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9089729B2AB276C10054F2B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9089729D2AB276C10054F2B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		908972A32AB2797F0054F2B8 /* DotaAPI_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotaAPI_Helper.swift; sourceTree = "<group>"; };
+		908972A52AB29F760054F2B8 /* DigimonAPI_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigimonAPI_Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				908972912AB276BF0054F2B8 /* SceneDelegate.swift */,
 				908972932AB276BF0054F2B8 /* ViewController.swift */,
 				908972A32AB2797F0054F2B8 /* DotaAPI_Helper.swift */,
+				908972A52AB29F760054F2B8 /* DigimonAPI_Helper.swift */,
 				908972952AB276BF0054F2B8 /* Main.storyboard */,
 				908972982AB276C10054F2B8 /* Assets.xcassets */,
 				9089729A2AB276C10054F2B8 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				908972A62AB29F760054F2B8 /* DigimonAPI_Helper.swift in Sources */,
 				908972A42AB2797F0054F2B8 /* DotaAPI_Helper.swift in Sources */,
 				908972942AB276BF0054F2B8 /* ViewController.swift in Sources */,
 				908972902AB276BF0054F2B8 /* AppDelegate.swift in Sources */,

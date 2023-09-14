@@ -17,21 +17,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSS-CX-mQF">
-                                <rect key="frame" x="128" y="150" width="138" height="35"/>
+                                <rect key="frame" x="158" y="150" width="78" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="DOTA2 Players"/>
+                                <buttonConfiguration key="configuration" style="filled" title="DOTA2"/>
                                 <connections>
                                     <action selector="callDotaAPI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IXW-8U-NaT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEt-rB-0fG">
-                                <rect key="frame" x="146" y="277" width="102" height="35"/>
+                                <rect key="frame" x="154" y="277" width="87" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Yu-Gi-Oh!"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Digimon"/>
                                 <connections>
-                                    <action selector="callYugiohAPI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Be2-Xw-4RB"/>
+                                    <action selector="callDigimonAPI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Be2-Xw-4RB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdB-ua-pal">

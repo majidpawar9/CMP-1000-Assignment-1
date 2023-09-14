@@ -20,7 +20,17 @@ class ViewController: UIViewController {
                     }
                 }
     }
-    
+    @IBAction func callDigimonAPI(_ sender: Any) {
+        Task {
+              do{
+                await print( try DigimonAPI_Helper.fetch())
+                    } catch DigimonAPI_Errors.CANNOT_CONVERT_STRING_TO_URL {
+                        print("Please insert connect url")
+                    } catch {
+                        print(error)
+                    }
+                }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
